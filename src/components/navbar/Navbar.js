@@ -5,7 +5,7 @@ import Cart from "../cart/Cart"
 
 function Navbar() {
     return (
-        <nav>
+        <nav className="cart__container">
             <div className="logo"><a href="#">CINETAZAS</a></div>
             <ul>
                 <li><a href="#">Inicio</a></li>
