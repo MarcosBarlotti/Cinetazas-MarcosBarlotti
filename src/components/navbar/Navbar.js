@@ -5,6 +5,7 @@ import Cart from "../cart/Cart"
 
 function Navbar() {
     return (
+        <>
         <nav className="cart__container">
             <div className="logo"><a href="#">CINETAZAS</a></div>
             <ul>
@@ -39,6 +40,7 @@ function Navbar() {
                 </div>
                 </ul>
     </nav>
+    </>
     )
 }
 

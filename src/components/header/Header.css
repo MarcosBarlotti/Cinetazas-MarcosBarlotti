@@ -17,7 +17,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -75%);
   width: 100%;
 }
 
@@ -37,4 +37,18 @@
   letter-spacing: 0.1em;
   text-shadow: 4px 4px 0 #297474;
   user-select: none;
+}
+
+.container__h1::before {
+  background-image: url(../../images/cineLogo.png);
+  background-size: 20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 20em;
+  width: 20em;
+  vertical-align: sub;
+  content: "";
+  -webkit-filter: drop-shadow(3px 3px 2px #222);
+  filter: drop-shadow(3px 3px 2px #222);
 }
